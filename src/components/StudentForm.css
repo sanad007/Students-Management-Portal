@@ -1,0 +1,30 @@
+/* src/components/StudentForm.css */
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .form-container input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Responsive Form */
+  @media (max-width: 768px) {
+    .form-container {
+      padding: 15px;
+    }
+  }
+  

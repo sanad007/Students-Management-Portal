@@ -1,0 +1,130 @@
+/* src/components/StudentList.css */
+
+/* Container styling to hold everything */
+.container {
+  width: 100%; /* Ensure the container takes the full width */
+  padding: 0 20px; /* Optional: Add some padding on the sides */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Search input styling */
+.search-input {
+  width: 100%; /* Make the input field full width */
+  padding: 10px; /* Add padding for aesthetics */
+  margin-bottom: 20px; /* Space below the input */
+  border-radius: 4px; /* Rounded corners */
+  border: 1px solid #ddd; /* Border styling */
+}
+
+/* Table styling */
+.student-table {
+  width: 100%; /* Make the table full width */
+  border-collapse: collapse; /* Collapse borders for cleaner look */
+}
+
+/* Table headers and cells */
+.student-table th,
+.student-table td {
+  padding: 12px; /* Padding for table cells */
+  border: 1px solid #ddd; /* Cell border */
+  text-align: left; /* Align text to the left */
+}
+
+/* Header styling */
+.student-table th {
+  background-color: #007bff; /* Header background color */
+  color: white; /* Header text color */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .student-table,
+  .student-table thead,
+  .student-table tbody,
+  .student-table th,
+  .student-table td,
+  .student-table tr {
+      display: block; /* Stack elements vertically */
+  }
+
+  .student-table tr {
+      margin-bottom: 15px; /* Space between rows */
+  }
+
+  .student-table th {
+      background-color: transparent; /* Header background for mobile */
+      color: #007bff; /* Header text color for mobile */
+      padding: 8px; /* Padding adjustment */
+  }
+
+  .student-table td {
+      position: relative; /* Position relative for alignment */
+      padding: 8px; /* Cell padding */
+      display: flex; /* Use flexbox for alignment */
+      justify-content: space-between; /* Space out items */
+      border: none; /* Remove border for a cleaner look on mobile */
+  }
+}
+/* src/components/StudentList.css */
+
+/* Table headers and cells */
+.student-table th,
+.student-table td {
+  padding: 12px; /* Padding for table cells */
+  border: 1px solid #ddd; /* Cell border */
+  text-align: left; /* Align text to the left */
+}
+
+/* Header styling */
+.student-table th {
+  background-color: #007bff !important; /* Ensure the background color is blue */
+  color: white !important; /* Ensure the text color is white */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .student-table,
+  .student-table thead,
+  .student-table tbody,
+  .student-table th,
+  .student-table td,
+  .student-table tr {
+      display: block; /* Stack elements vertically */
+  }
+
+  .student-table tr {
+      margin-bottom: 15px; /* Space between rows */
+  }
+
+  .student-table th {
+      background-color: #007bff !important; /* Ensure header background is blue for mobile */
+      color: white !important; /* Ensure header text is white for mobile */
+      padding: 8px; /* Padding adjustment */
+  }
+
+  .student-table td {
+      position: relative; /* Position relative for alignment */
+      padding: 8px; /* Cell padding */
+      display: flex; /* Use flexbox for alignment */
+      justify-content: space-between; /* Space out items */
+      border: none; /* Remove border for a cleaner look on mobile */
+  }
+}
+/* src/components/StudentList.css */
+
+/* Add styling for search input */
+.search-input {
+  width: 100%; /* Make the input field full width */
+  padding: 10px; /* Add padding for aesthetics */
+  margin-bottom: 20px; /* Space below the input */
+  border-radius: 4px; /* Rounded corners */
+  border: 1px solid #ddd; /* Border styling */
+}
+
+/* Style for select dropdown */
+select {
+  padding: 10px; /* Add padding */
+  margin-right: 10px; /* Space between dropdowns */
+  border-radius: 4px; /* Rounded corners */
+  border: 1px solid #ddd; /* Border styling */
+}
