@@ -1,42 +1,34 @@
-/* src/components/StudentList.css */
-
-/* Container styling to hold everything */
 .container {
-  width: 100%; /* Ensure the container takes the full width */
-  padding: 0 20px; /* Optional: Add some padding on the sides */
-  box-sizing: border-box; /* Include padding in width calculation */
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
-/* Search input styling */
 .search-input {
-  width: 100%; /* Make the input field full width */
-  padding: 10px; /* Add padding for aesthetics */
-  margin-bottom: 20px; /* Space below the input */
-  border-radius: 4px; /* Rounded corners */
-  border: 1px solid #ddd; /* Border styling */
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
 }
 
-/* Table styling */
 .student-table {
-  width: 100%; /* Make the table full width */
-  border-collapse: collapse; /* Collapse borders for cleaner look */
+  width: 100%;
+  border-collapse: collapse;
 }
 
-/* Table headers and cells */
 .student-table th,
 .student-table td {
-  padding: 12px; /* Padding for table cells */
-  border: 1px solid #ddd; /* Cell border */
-  text-align: left; /* Align text to the left */
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
 }
 
-/* Header styling */
 .student-table th {
-  background-color: #007bff; /* Header background color */
-  color: white; /* Header text color */
+  background-color: #007bff;
+  color: white;
 }
 
-/* Responsive design for smaller screens */
 @media (max-width: 768px) {
   .student-table,
   .student-table thead,
@@ -44,87 +36,52 @@
   .student-table th,
   .student-table td,
   .student-table tr {
-      display: block; /* Stack elements vertically */
+    display: block;
   }
 
   .student-table tr {
-      margin-bottom: 15px; /* Space between rows */
+    margin-bottom: 15px;
   }
 
   .student-table th {
-      background-color: transparent; /* Header background for mobile */
-      color: #007bff; /* Header text color for mobile */
-      padding: 8px; /* Padding adjustment */
+    background-color: transparent;
+    color: #007bff;
+    padding: 8px;
   }
 
   .student-table td {
-      position: relative; /* Position relative for alignment */
-      padding: 8px; /* Cell padding */
-      display: flex; /* Use flexbox for alignment */
-      justify-content: space-between; /* Space out items */
-      border: none; /* Remove border for a cleaner look on mobile */
+    position: relative;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
   }
 }
-/* src/components/StudentList.css */
 
-/* Table headers and cells */
-.student-table th,
-.student-table td {
-  padding: 12px; /* Padding for table cells */
-  border: 1px solid #ddd; /* Cell border */
-  text-align: left; /* Align text to the left */
-}
-
-/* Header styling */
 .student-table th {
-  background-color: #007bff !important; /* Ensure the background color is blue */
-  color: white !important; /* Ensure the text color is white */
+  background-color: #007bff !important;
+  color: white !important;
 }
 
-/* Responsive design for smaller screens */
 @media (max-width: 768px) {
-  .student-table,
-  .student-table thead,
-  .student-table tbody,
-  .student-table th,
-  .student-table td,
-  .student-table tr {
-      display: block; /* Stack elements vertically */
-  }
-
-  .student-table tr {
-      margin-bottom: 15px; /* Space between rows */
-  }
-
   .student-table th {
-      background-color: #007bff !important; /* Ensure header background is blue for mobile */
-      color: white !important; /* Ensure header text is white for mobile */
-      padding: 8px; /* Padding adjustment */
+    background-color: #007bff !important;
+    color: white !important;
+    padding: 8px;
   }
 
   .student-table td {
-      position: relative; /* Position relative for alignment */
-      padding: 8px; /* Cell padding */
-      display: flex; /* Use flexbox for alignment */
-      justify-content: space-between; /* Space out items */
-      border: none; /* Remove border for a cleaner look on mobile */
+    position: relative;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
   }
 }
-/* src/components/StudentList.css */
 
-/* Add styling for search input */
-.search-input {
-  width: 100%; /* Make the input field full width */
-  padding: 10px; /* Add padding for aesthetics */
-  margin-bottom: 20px; /* Space below the input */
-  border-radius: 4px; /* Rounded corners */
-  border: 1px solid #ddd; /* Border styling */
-}
-
-/* Style for select dropdown */
 select {
-  padding: 10px; /* Add padding */
-  margin-right: 10px; /* Space between dropdowns */
-  border-radius: 4px; /* Rounded corners */
-  border: 1px solid #ddd; /* Border styling */
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
 }
